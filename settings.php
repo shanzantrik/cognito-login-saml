@@ -25,7 +25,7 @@ class Cognito_Login_Settings {
   public function plugin_settings_page_content() { ?>
     <div class="wrap">
       <h2>Cognito Login Settings</h2>
-      <p>Documentation: <a href="https://github.com/shanzantrik/cognito-login-saml"</a></p>
+      <p>Documentation: <a href="https://github.com/shanzantrik/cognito-login-saml">Link</a></p>
       <form method="post" action="options.php">
         <?php
           settings_fields( 'cognito_login_fields' );
